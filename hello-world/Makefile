@@ -1,2 +1,5 @@
 build:
-	rustc main.rs
+	rustc main.rs -o dist/main
+
+run:
+	./dist/main
